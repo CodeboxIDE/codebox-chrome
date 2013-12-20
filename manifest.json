@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "minimum_chrome_version": "24.0.1307.0",
+    "name": "Codebox",
+    "description": "Cloud IDE as a Service.",
+    "permissions": [
+        "unlimitedStorage", "webview"
+    ],
+    "version": "1",
+    "app": {
+        "background": {
+            "scripts": ["main.js"]
+        }
+    },
+    "icons": {
+        "128": "icons/128.png",
+        "32": "icons/32.png"
+    }
+}

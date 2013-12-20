@@ -1,4 +1,4 @@
-codebox-chrome
+Codebox for Google Chrome
 ==============
 
-Google Chrome Application for Codebox
+Google Chrome Packaged Application for Codebox.
