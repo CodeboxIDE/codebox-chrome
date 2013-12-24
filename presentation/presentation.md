@@ -28,4 +28,4 @@ Add-on friendly
 Build your own features and functionnalities with Codebox's add-on system.
 
 Open Source
-The IDE is open source and avilable on GitHub.
+The IDE is open source and available on GitHub.
