@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+    "name": "Codebox For Your Desktop",
+    "description": "Cloud IDE as a Service.",
+    "offline_enabled": true,
+    "permissions": [
+        "unlimitedStorage"
+    ],
+    "version": "1",
+    "app": {
+        "urls": [
+            "*://codebox.io",
+            "*://dynobox.io",
+            "*://*.dynobox.io"
+        ],
+        "launch": {
+            "web_url": "https://www.codebox.io?login=true",
+            "container": "panel"
+        }
+    },
+    "icons": {
+        "128": "icons/128.png",
+        "32": "icons/32.png"
+    }
+}

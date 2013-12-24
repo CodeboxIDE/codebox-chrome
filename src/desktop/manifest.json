@@ -3,6 +3,7 @@
     "minimum_chrome_version": "24.0.1307.0",
     "name": "Codebox",
     "description": "Cloud IDE as a Service.",
+    "offline_enabled": true,
     "permissions": [
         "unlimitedStorage", "webview"
     ],
