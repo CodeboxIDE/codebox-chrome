@@ -1,12 +1,12 @@
 window.onresize = doLayout;
-var baseHost = "https://www.codebox.io";
+var baseHost = "https://www.codebox.io/?login=true";
 var userAgent = "codebox-app";
 
 onload = function() {
     var webview = getWebview();
 
     doLayout();
-    webview.setUserAgentOverride(userAgent);
+    if (webview.setUserAgentOverride) webview.setUserAgentOverride(userAgent);
     webview.addEventListener('newwindow', function(e) {
         window.open(e.targetUrl);
     });
