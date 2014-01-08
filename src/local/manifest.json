@@ -9,10 +9,10 @@
     "version": "2",
     "app": {
         "urls": [
-            "*://www.codebox.io/"
+            "*://localhost"
         ],
         "launch": {
-            "web_url": "https://www.codebox.io/?standalone=true",
+            "web_url": "http://localhost:8000",
             "container": "panel"
         }
     },
