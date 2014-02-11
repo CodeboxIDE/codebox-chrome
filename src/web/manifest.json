@@ -6,14 +6,13 @@
     "permissions": [
         "unlimitedStorage"
     ],
-    "version": "2.2",
+    "version": "2.3",
     "app": {
         "urls": [
             "*://www.codebox.io/"
         ],
         "launch": {
-            "web_url": "https://www.codebox.io/?standalone=true",
-            "container": "panel"
+            "web_url": "https://www.codebox.io/"
         }
     },
     "icons": {
