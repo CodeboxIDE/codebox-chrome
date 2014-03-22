@@ -27,5 +27,8 @@ Each environment provides you with the best tools and cutting edge technology in
 Add-on friendly
 Build your own features and functionnalities with Codebox's add-on system.
 
+Debugger
+An advanced graphical debugger helps find and resolve errors in your code.
+
 Open Source
 The IDE is open source and available on GitHub.
