@@ -1,12 +1,12 @@
 {
     "manifest_version": 2,
     "name": "Codebox",
-    "description": "Powerful, Collaborative Online/Offline web IDE",
+    "description": "Powerful, Collaborative Online/Offline cloud IDE",
     "offline_enabled": true,
     "permissions": [
         "unlimitedStorage"
     ],
-    "version": "2.3",
+    "version": "2.4",
     "app": {
         "urls": [
             "*://www.codebox.io/"

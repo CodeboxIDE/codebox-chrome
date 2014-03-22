@@ -1,18 +1,20 @@
 {
     "manifest_version": 2,
-    "minimum_chrome_version": "24.0.1307.0",
-    "name": "Codebox For Your Desktop",
-    "description": "Cloud IDE as a Service.",
+    "minimum_chrome_version": "24",
+    "name": "Codebox",
+    "description": "Powerful, Collaborative Online/Offline cloud IDE",
+    "version": "2.4",
     "offline_enabled": true,
-    "permissions": [
-        "unlimitedStorage", "webview"
-    ],
-    "version": "2.1",
     "app": {
         "background": {
-            "scripts": ["main.js"]
+            "scripts": [
+                "background.js"
+            ]
         }
     },
+    "permissions": [
+        "webview", "storage"
+    ],
     "icons": {
         "128": "icons/128.png",
         "32": "icons/32.png"
