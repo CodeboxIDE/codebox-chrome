@@ -1,9 +1,10 @@
 {
     "manifest_version": 2,
     "minimum_chrome_version": "24",
-    "name": "Codebox",
+    "name": "Codebox For Desktop",
+    "short_name": "Codebox",
     "description": "Powerful, Collaborative Online/Offline cloud IDE",
-    "version": "2.4",
+    "version": "2.5",
     "offline_enabled": true,
     "app": {
         "background": {
