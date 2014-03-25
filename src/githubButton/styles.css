@@ -1,0 +1,13 @@
+.codebox-button>span {
+    background-repeat: no-repeat;
+    background-position: left 4px;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAQCAYAAAAmlE46AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAQ9JREFUeNqcU7sRgkAQBTQxM6AAyAgJDSnBEiQzlAqU0Ag7gMxQS9AKNCSkAAI60Lc375xzRQN3ZufY2/f2d4vvjUiSJCmOimbRtu1dY3xFmJOwUriGAQZ7MXFIOxxH6AIqgD30Cs2gUsE6DMNZ3/cXkxEEcdTQiDHOjN4xYMQqlvTLfS7Eh1NSDkLzpe8VExgJlL+Sktmrp9qo3obDjB3tyCmnsMHUvcHZjB1KjAkeCDxRI94VxHQfpcJxwBFz/O5TxPS9ZKqHwLfKOQyx87FhBd6fYompzfBLgNlwGQyxhMr4azhuXAhNyMTHCQu29L9sx/nHt9kqveR6/Tx3zUC4jP4dqpctzVI/hchTgAEAYt5iNi+Rz1wAAAAASUVORK5CYII=);
+    background-position-y: 0px;
+    padding-top: 0px;
+    height: 16px;
+    width: 22px;
+    padding: 0px;
+    display: inline-block;
+    top: 3px;
+    position: relative;
+}
