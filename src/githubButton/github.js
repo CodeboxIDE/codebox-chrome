@@ -16,10 +16,8 @@ function addButton(target) {
     var user = document.querySelectorAll(".author>a>span")[0].textContent;
     var repo = document.querySelectorAll(".js-current-repository")[0].textContent;
     
-    if (isPrivate)
-        var url = "git@github.com:" + user + "/" + repo + ".git";
-    else
-        var url = "https://github.com/" + user + "/" + repo + ".git";
+    var prefix = isPrivate ? "git@github.com:" : "https://github.com/";
+    var url = prefix + user + "/" + repo + ".git";
         
     link.href = "https://www.codebox.io/api/edit/github?url=" + url;
     
