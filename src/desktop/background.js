@@ -74,7 +74,7 @@ AppWindow.prototype.onNewWindow = function(e) {
 
 // Navigate the window's webview to an  URL.
 AppWindow.prototype.loadUrl = function(url) {
-    this.webview.partition = this.settings.partition || "codebox";
+    this.webview.partition = this.settings.partition || "persist:codebox";
     this.webview.src = url;
 };
 
